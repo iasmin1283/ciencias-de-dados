@@ -1,5 +1,6 @@
 async function quantidadeUsuarios() {
-    const url = ' '
+    const url = ' 
+    https://cdn.plot.ly/plotly-2.27.0.min.js '
     const res = await fetch(url)
     const dados = await res.json()
     const pessoas_mundo = Object.keys(dados)
